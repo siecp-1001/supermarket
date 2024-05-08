@@ -1,5 +1,4 @@
-FROM openjdk:8
-
+FROM openjdk:17
+ADD target/supermarket-0.0.1-SNAPSHOT.jar supermarket.jar
 EXPOSE 8080
-ADD target/supermarket-docker.jar supermarket-docker.jar
-ENTRYPOINT ["java","-jar","/supermarket.jar "]
+ENTRYPOINT ["sh", "-c", "java ${JAVA_OPTS} -jar supermarket.jar"]

@@ -8,7 +8,7 @@
 		<version>2.5.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.syihabuddin</groupId>
+	<groupId>com.ahmed</groupId>
 	<artifactId>supermarket</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>supermarket</name>
@@ -89,13 +89,7 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-        <finalName>supermarket-docker</finalName>
+
 	</build>
 
 </project>
